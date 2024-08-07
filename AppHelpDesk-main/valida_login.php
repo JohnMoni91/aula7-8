@@ -20,8 +20,8 @@ array(
 
 );
 foreach($usuarios_app as $user) { //Aqui verificamos os dados dos clientes
-    if($user["email"]==$_POST["email"] && $user["password"]==$_POST["password"]) {
-        $usuario_autentic=true;
+    if($user["email"]==$_POST["email"] && $user["password"]==$_POST["password"]) { //Devemos colocar o "POST", para poder enviar dados sem mostrar para outras pessoas
+        $usuario_autentic=true; //Aqui fica ativo, pois está verificando os dados do cliente
 
     }
 }
