@@ -28,9 +28,12 @@ foreach($usuarios_app as $user) { //Aqui verificamos os dados dos clientes
 
 if($usuario_autentic) { //Caso o cliente já é cadastrado no site, ele dará o aviso de confirmação
     echo "Usuario Autenticado";
+    $_SESSION["aut"] = "SIM";
 
 } else { //Caso contrário, ele irá mandar uma outra mensagem  
-    echo "Usuario não encontrado!";
+    $_SESSION["aut"] = "NAO";
+    header("Location: index.php?login=erro");
+    
 }
 
 ;

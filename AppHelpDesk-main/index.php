@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <title>App Help Desk</title>
@@ -33,6 +33,23 @@
                 <div class="form-group">
                   <input name="password" type="password" class="form-control" placeholder="Senha">
                 </div>
+                <?php
+                      //mostra o valor de get com o login
+                      if(isset($_GET["login"]) && $_GET["login"]=="erro") { ?>
+                      <div class="text-danger">
+                        Usuario ou senha invalidos(s).
+                      </div>
+                    
+                <?php } ?>
+
+                <?php
+                      //mostra o valor de get com o login
+                      if(isset($_GET["login"]) && $_GET["login"]=="erro2") { ?>
+                      <div class="text-danger">
+                      Faça login para acessar as páginas protegidas.
+                      </div>
+                    
+                <?php } ?>
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>
 
