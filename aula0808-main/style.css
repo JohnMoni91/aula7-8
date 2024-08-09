@@ -1,0 +1,68 @@
+.navbar-brand {
+    color: black;
+}
+
+.card-login {
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group input {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.navbar {
+    display: center;
+}
+
+      .card-home {
+        padding: 30px 0 0 0;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .card-abrir-chamado {
+        padding: 30px 0 0 0;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .card-consultar-chamado {
+        padding: 30px 0 0 0;
+        width: 100%;
+        margin: 0 auto;
+    }
